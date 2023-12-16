@@ -1,0 +1,64 @@
+.mainContainer {
+    // text-align: center; 
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 94, 255, 0.359);
+}
+
+.Btn {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    outline: none;
+    // background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.incBtn {
+    background-color: rgb(51, 225, 51);
+}
+
+.decBtn {
+    background-color: rgb(250, 39, 39);
+}
+
+h1 {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 10px 0 10px 0;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    // background-color: aquamarine;
+    margin-left: 400px;
+    border-radius: 8px;
+    padding-top: 50px;
+
+    -webkit-box-shadow: 0px 0px 41px -3px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 0px 41px -3px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 41px -3px rgba(0, 0, 0, 0.38);
+
+    background:black;
+    background:rgba(0,0,0,0.8);
+
+
+}
+
+.countDisplay {
+    background-color: red;
+    height: 50px;
+    width: 100%;
+
+}
+
+.negValue{
+    font-size: 30px;
+    color: wheat;
+    font-weight: 500;
+}

@@ -1,0 +1,31 @@
+.app{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.accordian{
+    width: 400px;
+    height: 100%;
+    margin-top: 100px;
+
+}
+.accordian-head{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    border-bottom: 1px solid black ;
+}
+
+.accordian-body{
+   background-color: rgba(128, 0, 128, 0.479);
+//    width: 100%;
+   height: auto;
+   padding: 10px;
+   border-radius: 5px;
+    text-wrap: wrap;
+}
