@@ -10,8 +10,13 @@ import Props from "./props";
 import Additem from "./Components/Additem"
 import Accordian from "./Components/Accordian";
 
+
+
 // import './App.css';
 import './routee.scss'
+import Paginateddata from "./paginatedData.js";
+import Fetch from "./Components/fetch.js";
+
 
 
 function routee() {
@@ -29,6 +34,8 @@ function routee() {
                     <Route path="/props" element={<Props/>}/>
                     <Route path="/additem" element={<Additem/>}/>
                     <Route path="/accordian" element={<Accordian/>}/>
+                    <Route path="/pagnation" element={<Paginateddata/>}/>
+                    <Route path="/getdata" element={<Fetch/>}/>
                 </Routes>
             </div>
         </Router>
